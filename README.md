@@ -33,7 +33,7 @@ Search the files for **`EDIT ME`** — every placeholder is marked:
 | Contact email destination | `js/main.js` — `CONTACT_EMAIL` at the top |
 | Social-share tags (after domain hookup) | `index.html` `<head>` og: tags |
 
-Game #1 (*Step by Step TD*) has a hand-drawn SVG placeholder where screenshots
+Game #1 (*Project Time Deck*) has a hand-drawn SVG placeholder where screenshots
 go later — when you have real captures, replace the `<svg>` inside its
 `.game-art` div with an `<img>` tag.
 

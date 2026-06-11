@@ -4,7 +4,7 @@
 // After FormSubmit's one-time activation email (see DEPLOY.md), you can replace
 // this with the random alias FormSubmit gives you to keep the raw address out
 // of the page source, e.g. 'a1b2c3d4e5f6@formsubmit.co' style aliases.
-const CONTACT_EMAIL = 'bennettrhett@gmail.com';
+const CONTACT_EMAIL = 'Doodledriftgames@gmail.com';
 const FORM_ENDPOINT = 'https://formsubmit.co/ajax/' + encodeURIComponent(CONTACT_EMAIL);
 
 // ---------------------------------------------------------------- nav ----

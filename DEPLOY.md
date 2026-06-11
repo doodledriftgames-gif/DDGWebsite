@@ -62,12 +62,15 @@ domain once DNS is connected).
 
 ## One-time: activate the contact form
 
-The form forwards to **bennettrhett@gmail.com** via FormSubmit.co, which
+The form forwards to **Doodledriftgames@gmail.com** via FormSubmit.co, which
 requires a single activation handshake **from the live site**:
 
 1. On https://doodledriftgames.com, send yourself a test message.
 2. Check the inbox (and spam) for FormSubmit's email → click **Activate**.
 3. Send a second test — it should arrive normally. ✅
+
+Note: activation is tied to the destination address — if you ever change
+`CONTACT_EMAIL` in `js/main.js`, the new address needs its own activation.
 
 **Optional hardening:** the activation email includes a random alias (like
 `abc123def@formsubmit.co`). Swap it into `CONTACT_EMAIL` at the top of
